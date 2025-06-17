@@ -1,12 +1,12 @@
-🧠 CNN for Skin Lesion Classification
+  CNN for Skin Lesion Classification
 
 This project implements a Convolutional Neural Network (CNN) model to classify dermoscopic images of skin lesions into various diagnostic categories. The goal is to assist dermatologists and researchers by automating part of the diagnostic process using deep learning techniques.
 
-📁 Project Structure
+  Project Structure
 
 - CNN_Skin_leasure.ipynb: Jupyter Notebook containing all steps from data preprocessing, model training, evaluation, and visualization.
 
-🩺 Dataset
+  Dataset
 
 The project uses the HAM10000 dataset, a benchmark dataset for skin lesion classification. It contains 10,015 dermatoscopic images divided into 7 classes:
 
@@ -18,7 +18,7 @@ The project uses the HAM10000 dataset, a benchmark dataset for skin lesion class
 - Melanocytic nevi (nv)
 - Vascular lesions (vasc)
 
-🧪 Methodology
+  Methodology
 
 - Image preprocessing (normalization, resizing)
 - CNN model definition using PyTorch
@@ -26,7 +26,7 @@ The project uses the HAM10000 dataset, a benchmark dataset for skin lesion class
 - Evaluation metrics: Accuracy, Confusion Matrix
 - Ontology-based explanation for predicted diagnoses
 
-🖥️ Requirements
+  Requirements
 
 - Python 3.8+
 - PyTorch
@@ -36,23 +36,23 @@ The project uses the HAM10000 dataset, a benchmark dataset for skin lesion class
 - tqdm
 - (Optional) Weights & Biases for experiment tracking
 
-🚀 How to Run
+  How to Run
 
 1. Download the HAM10000 dataset from https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000.
 2. Run the notebook CNN_Skin_leasure.ipynb step by step.
 3. Visualize results and evaluate performance.
 
-📊 Results
+  Results
 
 Model performance will vary depending on preprocessing and hyperparameters. Example results include:
 - Validation accuracy ~80–90%
 
-🔍 Future Work
+  Future Work
 
 - Incorporate data augmentation
 - Improve class balancing
 - Add explainability via Grad-CAM or ontology mapping
 
-📄 License
+  License
 
 This project is licensed under the MIT License.
